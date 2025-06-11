@@ -1,0 +1,7 @@
+{
+  "name": "IDAScolaire",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
