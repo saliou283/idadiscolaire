@@ -12,6 +12,7 @@ import {
   IonToolbar,
   IonInput, 
   IonItem,
+  IonLabel,
  } from '@ionic/angular/standalone';
 
 @Component({
@@ -30,11 +31,16 @@ import {
     CommonModule, 
     FormsModule, 
     IonInput, 
-    IonItem
+    IonItem,
+    IonLabel,
+
   ]
 })
-export class LoginPage implements OnInit {
-
+export class LoginPage  {
+             page = [
+              { id: 1, name: 'saliou' },
+              { id: 2, name: 'abdou' },
+             ]
   constructor() { }
 
   ngOnInit() {

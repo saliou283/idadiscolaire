@@ -6,12 +6,15 @@ import { IonicModule } from '@ionic/angular'; // <-- Assurez-vous que cette lign
 import { RouterModule } from '@angular/router';
 
 
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule, // <-- Ajoutez IonicModule ici
      RouterModule,
+     
+
   ],
   declarations: []
 })
